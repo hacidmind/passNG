@@ -1,0 +1,325 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  link(rel='stylesheet' href='stylesheets/passNG.css')
+  link(href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin="anonymous") 
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous')
+  link(href='https://fonts.googleapis.com/css?family=Roboto&display=swap' rel='stylesheet')
+  title passNG
+// HEADER
+header
+  // header one
+  .ican
+    .container
+      .row.text-white.py-2
+        .col-md-6
+          i.fas.fa-phone.pr-2
+          |  0701-222-2333
+          a(href='#')
+            i.fas.fa-envelope.text-white.pr-2.pl-5  info@pass.ng
+        .col-md-6.text-center.d-none.d-lg-block
+          a(href='#')
+            i.fab.fa-facebook.text-white.pr-5
+          a(href='#')
+            i.fab.fa-twitter.text-white.pr-5
+          a(href='#')
+            i.fab.fa-weixin.text-white.pr-5
+          a(href='#')
+            i.fab.fa-google-plus.text-white.pr-5
+          a(href='#')
+            i.fab.fa-instagram.text-white.pr-5
+          a(href='#')
+            i.fab.fa-linkedin.text-white
+  // NAVBAR
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light
+    .capture
+      a.navbar-brand.pr-5(href='#')
+        img(src='image/Capture1.JPG' alt='logo')
+    button.navbar-toggler.d-lg-none(type='button' data-toggle='collapse' data-target='#collapsibleNavId' aria-controls='collapsibleNavId' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #collapsibleNavId.collapse.navbar-collapse
+      ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+        li.nav-item.p-2
+          a.nav-link(href='#')
+            | home 
+            span.sr-only (current)
+        li.nav-item.dropdown.p-2
+          a#dropdownId.nav-link.dropdown-toggle(href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') take a test
+          .dropdown-menu(aria-labelledby='dropdownId')
+            a.dropdown-item(href='#') Action 1
+            a.dropdown-item(href='#') Action 2
+        li.nav-item.dropdown.p-2
+          a#dropdownId1.nav-link.dropdown-toggle(href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') downloads
+          .dropdown-menu(aria-labelledby='dropdownId')
+            a.dropdown-item(href='#') Action 1
+            a.dropdown-item(href='#') Action 2
+        li.nav-item.dropdown.p-2
+          a#dropdownId2.nav-link.dropdown-toggle(href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') about
+          .dropdown-menu(aria-labelledby='dropdownId')
+            a.dropdown-item(href='#') About Us
+            a.dropdown-item(href='#') FAQs
+        li.nav-item.p-2
+          a.nav-link(href='#') blog
+        li.nav-item.p-2.border.border-success.rounded
+          a.nav-link(href='#') Login
+main
+  // MAIN ONE
+  .bkg
+    .container.text-center.text-white
+      .row.pt-5
+        .col-md-12.pt-5.pb-4
+          h2 Prepare for your coming examination here
+          h3 Pass in one sitting!
+          br
+      .row.pb-5
+        .col-md-12.small
+          br
+          a.text-white.pr-2(href='#')
+            i.fas.fa-plus-square.text-success.pr-2
+            | N-Power
+          a.text-white.pr-2(href='#')
+            i.fas.fa-plus-square.text-success.pr-2
+            | DPR
+          a.text-white.pr-2(href='#')
+            i.fas.fa-plus-square.text-success.pr-2
+            | JAMB
+            |                             EXAM
+          a.text-white.pr-2(href='#')
+            i.fas.fa-plus-square.text-success.pr-2
+            | WAEC
+          a.text-white.pr-2(href='#')
+            i.fas.fa-plus-square.text-success.pr-2
+            | NECO
+          a.text-white.pr-2(href='#')
+            i.fas.fa-plus-square.text-success.pr-2
+            | COMMON ENTRANCE
+          a.text-white.pr-2(href='#')
+            i.fas.fa-plus-square.text-success.pr-2
+            | ICAN
+  // MAIN TWO
+  .container
+    .row.text-center
+      .col-md-4.pt-5
+        a(href='#')
+          img(src='image/live.png' alt='logo' width='70')
+          h5.text-success.pt-3 Practice CBT Online
+          p.text-dark.small.pb-3 Select test register and Practice
+        button.btn.shadow.p-3.mb-5.bg-white.rounded Start testing
+      .col-md-4.border-right.border-left.pt-5
+        a(href='#')
+          img(src='image/no-wifi.png' alt='logo' width='70')
+          h5.text-success.pt-3 Practice Without Internet
+          p.text-dark.small.pb-3 Download our offline CBT software
+        button.btn.shadow.p-3.mb-5.bg-white.rounded Download Now
+      .col-md-4.pt-5
+        a(href='#')
+          img(src='image/app.png' alt='logo' width='70')
+          h5.text-success.pt-3 Download Android App
+          p.text-dark.small.pb-3 You can practice anywhere anytime
+        button.btn.shadow.p-3.mb-5.bg-white.rounded Get it Now
+  // MAIN THREE
+  .bg-light
+    .container
+      .row.pt-3.pb-3
+        .col-md-12.border-bottom
+          h4 FEATURED TESTS &amp; RESOURCES
+      .row.text-center.text-white
+        .col-md-4
+          p.small.bg-success.p-2 FEATURED TESTS &amp; RESOURCES
+        .col-md-4
+          p.small.bg-success.p-2 POST UTME TEST
+        .col-md-4
+          p.small.bg-success.p-2 JAMB EXAM
+      .row.text-center.text-white
+        .col-md-4
+          p.small.bg-success.p-2 FEATURED TESTS &amp; RESOURCES
+        .col-md-4
+          p.small.bg-success.p-2 POST UTME TEST
+        .col-md-4
+          p.small.bg-success.p-2 JAMB EXAM
+      .row.text-center.text-white.pb-4
+        .col-md-4
+          p.small.bg-success.p-2 FEATURED TESTS &amp; RESOURCES
+        .col-md-4
+          p.small.bg-success.p-2 POST UTME TEST
+        .col-md-4
+          p.small.bg-success.p-2 JAMB EXAM
+  // MAIN FOUR
+  .container.pt-3
+    .row
+      .col-md-7
+        img.img-fluid(src='image/desktop2017.png' alt='logo' width='450')
+      .col-md-5.pt-5
+        h3.text-success Want to Practise CBT totally Offline?
+        p.small.pb-4
+          | We have the right CBT solution for you. Download the 2019 JAMB CBT Offline
+          | Software for any type
+          | of computer. Usage is easy &amp; it is 100% offline.
+        button.btn.btn-success.mb-3 Download Now
+        p N1,500 only
+  // MAIN FOUR B
+  .tellme.mb-5
+    .container
+      .row.text-white.pt-3
+        .col-md-9.text-center
+          p 350,000+ Candidates have taken 7,250,000+ tests using PASS.NG
+        .col-md-3.text-center
+          a.text-white.border.px-3(href='#') Tell me more !
+  // MAIN FIVE
+  .container
+    .row.pb-5
+      .col-md-6.text-right
+        h3.colour Download Our Android App
+        p Download Our FREE Android App and practise anytime, anywhere.
+        button.btn.bgcolour.mb-3.mt-3.text-white Download Here
+      .col-md-6
+        img.img-fluid.shadow(src='image/android.jpg' alt='logo')
+  // MAIN SIX
+  .bg-light
+    .container
+      .row.text-center.pt-4
+        .col-md-6
+          img(src='image/find.png' alt='find logo' width='70')
+          h5.pt-3 Locate a Tutorial Centre
+          p.small.mt-3
+            | For Free! You can locate the best Tutorial Centres in your location or any
+            | part of lagos
+            | offering prep for your examination.
+          button.btn.mt-3.shadow.p-3.mb-5.bg-white.rounded Try Now
+        .col-md-6
+          img(src='image/laptop.png' alt='laptop logo' width='70')
+          h5.pt-3 Offline Desktop Software
+          p.small.mt-3
+            | Simulate JAMB CBT on your Computer without having to worry about internet
+            | access. With 16 years of JAMB Past-Questions and Answers
+          button.btn.mt-3.shadow.p-3.mb-5.bg-white.rounded Download Now
+      // MAIN SIX-B
+      .row.text-center.pt-4.pb-5
+        .col-md-6
+          img(src='image/agent.png' alt='find logo' width='70')
+          h5.pt-3 Become our Offline Software Sales Agent
+          p.small.mt-3
+            | You can get rewarded for your love for us! Get paid by referring Candidate
+            | to the platform. The More you refer, the more you get!
+          button.btn.mt-3.shadow.p-3.mb-5.bg-white.rounded Signup Now
+        .col-md-6
+          img(src='image/subscription.png' alt='laptop logo' width='70')
+          h5.pt-3 Offline Desktop Software
+          p.small.mt-3
+            | Subcription to have access to the full plethora of PASS.NG is a seemless
+            | one with no difficulty at all!
+          button.btn.mt-3.shadow.p-3.mb-5.bg-white.rounded Subscribe Now
+  // MAIN SEVEN
+  .container
+    .row.text-center.pt-5
+      .col-md-3
+        img.img-fluid.rounded-circle(src='image/henry.jpg' alt='henry' width='175')
+      .col-md-6.pt-3
+        p
+          | &quot;My name is Ekweonu Henry, I reside in Abuja. I got a jamb score of 285. I really want to use
+          | this medium to appreciate
+          | PASS.NG for the innovative idea they have put in, in making this app a reality. God bless you
+          | guys for all your
+          | efforts&quot;.
+      .col-md-3.pt-4
+        button.btn.bgcolour.mb-3.mt-3.text-white.px-5 More...
+  // MAIN EIGHT
+  .tellme
+    .container
+      .row.py-4
+        .col-md-2
+        .col-md-3.text-white.pt-4
+          h5 Connect with us
+        .col-md-6
+          a(href='#')
+            i.fab.fa-facebook-f.fa-3x.text-white.p-2
+          a(href='#')
+            i.fab.fa-twitter.fa-3x.fa-3x.text-white.p-2
+          a(href='#')
+            i.fab.fa-instagram.fa-3x.text-white.p-2
+          a(href='#')
+            i.fab.fa-linkedin.fa-3x.text-white.p-2
+          a(href='#')
+            i.fab.fa-weixin.fa-3x.text-white.p-2
+        .col-md-1
+  // MAIN NINE
+  .container
+    .row.pt-3.pb-3
+      .col-md-12.text-center
+        h4 We&apos;ve been featured in
+      .col-md-12
+        a(href='#')
+          img.img-fluid(src='image/ft1.JPG' alt='news')
+        a(href='#')
+          img.img-fluid(src='image/ft2.JPG' alt='news')
+        a(href='#')
+          img.img-fluid(src='image/ft3.JPG' alt='news')
+        a(href='#')
+          img.img-fluid(src='image/ft4.JPG' alt='news')
+        a(href='#')
+          img.img-fluid(src='image/ft5.JPG' alt='news')
+        a(href='#')
+          img.img-fluid(src='image/ft6.png' alt='news')
+footer
+  .container
+    .row.pt-4
+      .col-md-3
+        h6.colour TEST &amp;AMP; RESOURSES
+        ul.list-inline
+          li
+            a.text-white.small(href='#') N-POWER
+          li
+            a.text-white.small(href='#') JAMB CBT
+          li
+            a.text-white.small(href='#') WAEC TEST
+          li
+            a.text-white.small(href='#') POST UTME
+          li
+            a.text-white.small(href='#') NECO
+          li
+            a.text-white.small(href='#') MOCK TEST
+          li
+            a.text-white.small(href='#') JSCE
+          li
+            a.text-white.small(href='#') SCHOOL OF NURSING
+          li
+            a.text-white.small(href='#') COMMON ENTRANCE
+          li
+            a.text-white.small(href='#') APTITUDE TEST
+      .col-md-3
+        h6.colour MENU
+        ul.list-inline
+          li
+            a.text-white.small(href='#') About us
+          li
+            a.text-white.small(href='#') Contact us
+          li
+            a.text-white.small(href='#') Gallery
+      .col-md-2
+        h6.colour SOCIAL
+        ul.list-inline
+          li
+            a.text-white.small(href='#') Google+
+          li
+            a.text-white.small(href='#') Facebook
+          li
+            a.text-white.small(href='#') Twitter
+      .col-md-4
+        p.text-white Sign up for our newsletter and we&apos;ll inform you of updates, offers and more.
+        br
+        // <input type="text" placeholder="Your email address">
+        .input-group.mb-3
+          input.form-control(type='text' placeholder='Your email address' aria-label='Your email' aria-describedby='basic-addon2')
+          //
+            <div class="input-group-append">
+            <button class="btn btn-outline-white text-white bg-success" type="button">Signup</button>
+            </div>
+          input.link(type='button' value='Signup')
+    .row
+      .col-md-12.text-center
+        p.small.text-white Copyright &copy; 2019. HACIDMIND
+// BOOTSTRAP JS
+script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js", integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM", crossorigin="anonymous")
+script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js", integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o", crossorigin="anonymous")

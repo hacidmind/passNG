@@ -1,0 +1,55 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+/* HEADER ONE */
+
+a {
+    text-decoration: none !important  ;
+}
+.ican {
+    background-color: #86A51B;
+}
+.capture {
+    margin-right: 30vw;
+    /* margin-right: 100vh; */
+}
+.dropdown-item:hover{
+    background-color: #86A51B !important;
+}
+
+/* MAIN */
+.bkg {
+    background-image: url("../image/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+/* MAIN 4B */
+.tellme {
+    background-color: #86A51B;
+}
+
+.colour{
+    color: #86A51B;
+}
+.bgcolour{
+    background-color: #86A51B !important;
+}
+
+/* FOOTER */
+footer{
+    background-color: #2D3E50;
+}
+
+.link{
+    position: absolute;
+    right: 5px;
+    bottom: 4px;
+    background-color: #86A51B;
+    color: white;
+    border-radius: 5px;
+}
